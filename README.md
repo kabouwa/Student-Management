@@ -1,4 +1,4 @@
-# MVC-Arch
+# Student-Management | MVC-Arch
 
 Just a test project — learning the MVC (Model-View-Controller) design pattern in plain PHP, before starting Laravel.
 
