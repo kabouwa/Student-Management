@@ -15,6 +15,7 @@ define('DB',[
 ]);
 function DSN($host,$port,$dbname){return "mysql:host=" . $host . ";port=" . $port . ";dbname=" . $dbname . ";charset=utf8";}
 //Establish connection to db
+
 try{
     $dsn = DSN(DB['host'],DB['port'],DB['name']);
     $conn = new PDO(
